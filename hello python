@@ -1,0 +1,19 @@
+def main():
+    print("Hello, EEP OOP course! Environment is working.")
+
+if __name__ == "__main__":
+    main()
+
+    """
+A trivial pytest smoke test. Its only job is to confirm pytest
+is installed and can discover and run a test in this project.
+"""
+
+def add(a, b):
+    return a + b
+
+def test_add_smoke():
+    assert add(2, 3) == 5
+
+print("python week00/hello.py")
+
